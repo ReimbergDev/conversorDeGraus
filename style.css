@@ -1,0 +1,119 @@
+/* Resetando estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Definindo estilos básicos */
+  body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h2.sub {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"],
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+  }
+  
+  select {
+    width: 50%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0077c2;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005ea6;
+  }
+  
+  #res {
+    background-color: #eee;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilizando elementos específicos */
+  body {
+    background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  }
+  
+  h1 {
+    color: #fff;
+  }
+  
+  input[type="number"],
+  select {
+    background-color: #ddd;
+    color: #444;
+  }
+  
+  select option {
+    color: #fff;
+    background-color: #0077c2;
+  }
+  
+  button {
+    background-color: #0095d9;
+  }
+  
+  button:hover {
+    background-color: #0077c2;
+  }
+  
+  #res {
+    background-color: #0077c2;
+    color: #fff;
+  }
+  
